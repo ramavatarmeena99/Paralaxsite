@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  
+
+}
+.sectionBanner{
+    
+    height:100vh; 
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    background-image: linear-gradient(
+
+        rgba(56, 56, 56, 0.8),
+        rgba(63, 63, 65, 0.7)
+    ), 
+    url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+
+.parallaxsite{
+    background-color:rgb(167, 129, 129);
+    width: 30%;
+    height: 70px;
+    font-size:40px;
+    font-weight:100;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionMiddle{
+    background-color:white;
+    color:black;
+    text-align: center;
+    width:100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0px 100px;
+    line-height: 1.3;
+
+}
+.headingMiddle{
+    text-align: center;
+    margin-bottom:30px;
+    margin-top: 70px;
+
+}
+.sectionsecond{
+    height:500px; 
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    background-image: linear-gradient(
+
+        rgba(56, 56, 56, 0.8),
+        rgba(63, 63, 65, 0.7)
+    ), 
+    url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+.secondTitle{
+    
+    width: 30%;
+    height: 70px;
+    font-size:40px;
+    font-weight:100;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    color: white;
+} 
+
+.sectiontwo{
+    background-color:black;
+    color:white;
+    text-align: center;
+    width:100%;
+    height: 450px;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 100px 100px;
+    line-height: 1.6;  
+}
+.sectiontwoheading{
+    text-align: center;
+    margin-bottom:20px;
+    margin-top: 0px;
+    font-weight:200;
+    font-size: 40px;
+
+}
+.sectionthird{
+    height:500px; 
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    background-image: linear-gradient(
+
+        rgba(56, 56, 56, 0.8),
+        rgba(63, 63, 65, 0.7)
+    ), 
+    url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;   
+}
+.thirdtitle{
+    width: 30%;
+    height: 70px;
+    font-size:40px;
+    font-weight:100;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    color: white;
+    line-height: 1.9;   
+}
+.sectionthree{
+    background-color:black;
+    color:white;
+    text-align: center;
+    width:100%;
+    height: 450px;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 100px 100px;
+    line-height: 1.6;    
+}
+.sectionthreeheading{
+    text-align: center;
+    margin-bottom:20px;
+    margin-top: 0px;
+    font-weight:200;
+    font-size: 40px;
+   
+}
+.sectionButtom{
+    
+    height:100vh; 
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    background-image: linear-gradient(
+
+        rgba(56, 56, 56, 0.8),
+        rgba(63, 63, 65, 0.7)
+    ), 
+    url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+.traversyMedis{
+    background-color:rgb(39, 38, 38);
+    width: 30%;
+    height: 70px;
+    font-size:40px;
+    font-weight:100;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+.titlebuttom{
+    color: white;  
+    font-size:40px;
+    font-weight:100;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
