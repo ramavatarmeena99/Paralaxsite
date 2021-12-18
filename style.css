@@ -28,6 +28,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
+    background-attachment: fixed;
     
 }
 
@@ -47,8 +48,8 @@ body{
     color:black;
     text-align: center;
     width:100%;
-    height: 300px;
-    margin-top: 20px;
+    height: 320px;
+    margin-top: 15px;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 25px;
@@ -59,8 +60,18 @@ body{
 .headingMiddle{
     text-align: center;
     margin-bottom:30px;
-    margin-top: 70px;
+    margin-top: 30px;
 
+}
+.lorem{
+    width: 100%;
+    margin-left:0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 22px;
+    font-weight:100;
+    padding-bottom: 10px;
 }
 .sectionsecond{
     height:500px; 
@@ -78,7 +89,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
-    
+    background-attachment: fixed;
 }
 .secondTitle{
     
@@ -101,10 +112,11 @@ body{
     height: 450px;
     font-weight: 100;
     font-size: 25px;
-    padding: 100px 100px;
+    padding: 50px 100px;
     line-height: 1.6;  
 }
 .sectiontwoheading{
+    
     text-align: center;
     margin-bottom:20px;
     margin-top: 0px;
@@ -128,6 +140,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;   
+    background-attachment: fixed;
 }
 .thirdtitle{
     width: 30%;
@@ -177,7 +190,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
-    
+    background-attachment: fixed;
 }
 .traversyMedis{
     background-color:rgb(39, 38, 38);
@@ -200,3 +213,141 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 800px){
+body{
+    background-color: red;
+}
+.sectionBanner{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.parallaxsite{
+    width: 60%;
+    height: max-content;
+    font-size:40px;
+    font-weight:100;
+    margin: 0px;
+    line-height: 1.3;
+}
+.sectionMiddle{
+    text-align: center;
+    width:100%;
+    height:350;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 10px 0px;
+    line-height: 1.1;
+
+}
+
+.headingMiddle{
+    width:100%;
+    margin:0px;
+    padding:10px 0px;
+}
+.lorem{    
+    width: 100%;
+    font-size:15px;
+    font-weight: 100;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sectionsecond{
+    width: 100%;
+    height:350px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.secondTitle{
+    
+    width: 70%;
+    height: 70px;
+    font-size:30px;
+    font-weight:200;
+} 
+.sectiontwo{
+    text-align: center;
+    width:100%;
+    height: 350px;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 0px 0px;
+    line-height: 1.3;  
+}
+.sectiontwoheading{
+    width: 100%;
+    text-align: center;
+    margin-bottom:0px;
+    margin-top: 0px;
+    padding:20px 50px;
+    font-weight:200;
+    font-size: 30px;
+}
+.sectionthird{
+    height:300px; 
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+
+}
+.thirdtitle{
+    width: 70%;
+    height: 100px;
+    font-size:40px;
+    font-weight:100;
+    line-height: 1.3;   
+}
+.sectionthree{
+    text-align: center;
+    width:100%;
+    height: 350px;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 0px 0px;
+    line-height: 1.3;    
+}
+.sectionthreeheading{
+    text-align: center;
+    margin-bottom:0px;
+    margin-top: 0px;
+    font-weight:200;
+    font-size: 40px;
+    padding:10px 0px;
+   
+}
+.sectionButtom{
+    
+    height: 350px; 
+    width: 100%;
+
+}
+.traversyMedis{
+    width: 70%;
+    height: 100px;
+    font-size:30px;
+    font-weight:100;
+}
+.titlebuttom{
+    font-size:30px;
+    font-weight:100;
+}
+
+
+
+}
+
+
